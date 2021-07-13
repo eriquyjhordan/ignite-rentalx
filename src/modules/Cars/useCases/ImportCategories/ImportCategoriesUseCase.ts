@@ -26,7 +26,7 @@ class ImportCategoriesUseCase {
           });
         })
         .on('end', () => resolve(importsCategories))
-        .on('error', err => reject(err));
+        .on('error:', err => reject(err));
     });
   }
 
